@@ -1,0 +1,87 @@
+{
+    "queryFilter": {
+        "isoCountryCode": "FRA",
+        "startDate": "2022-09-19T00:00:00Z",
+        "endDate": "2022-09-23T00:00:00Z",
+        "requestType": "AGGREGATED_PROBE_PATH",
+        "vehicleType": "ALL",
+        "timeIntervals": [
+            "0500-2200"
+        ],
+        "daysOfWeek": {
+            "U": true,
+            "M": true,
+            "T": true,
+            "W": true,
+            "R": true,
+            "F": true,
+            "S": true
+        },
+        "location": {
+            "geometry": "POLYGON ((1.350350000052515 43.66855000028232, 1.5153699999256105 43.66855000028232, 1.5153699999256105 43.53282000034278, 1.350350000052515 43.53282000034278, 1.350350000052515 43.66855000028232))"
+                    }
+    },
+    "outputFormat": {
+        "tmcBased": false,
+        "epochType": 60,
+        "minMax": true,
+        "mean": true,
+        "stdDev": true,
+        "confidence": true,
+        "freeFlow": true,
+        "length_": true,
+        "speedLimit": true,
+        "sampleCount": true,
+        "gapFilling": true,
+        "percentiles": []
+    },
+    "email": {
+        "sender": "info@citec.ch",
+        "password": "Puq63233",
+        "receiver": "thibault.fourez@citec.ch",
+        "smtpServer": "smtp.office365.com",
+        "smtpPort": 587,
+        "cc": "yahya.younes@citec.ch",
+        "cci": "yahya.younes@citec.ch"
+    },
+    "HERESpeedDataAuthorization": {
+        "userEmail": "frederic.schettini@citec.ch",
+        "userId": 1447,
+        "signingMethod": "HMAC-SHA256",
+        "consumerKey": "D1xJsdaX3o-B4VA4eIKY3A",
+        "consumerSecret": "qxBwHkZ4zyiPdm8WhW5xo-x_6s0Ms3DEXAx72imCc2W44E36_xEWr4F_G37IkkbStKaolcv3zpRFyJ4aXjQoeQ",
+        "token": "",
+        "url_auth": "https://account.api.here.com/oauth2/token",
+        "url_post_req": "https://trafficanalytics.api.here.com/dailyAnalytics/requests",
+        "urlGetRequest": "https://trafficanalytics.api.here.com/dailyAnalytics"
+    },
+    "path": {
+        "outputFolder": "C:\\Users\\sd\\OneDrive - CITEC\\Yahya\\Outil Niels Toulouse",
+        "tempFolder": "C:\\Users\\sd\\OneDrive - CITEC\\Yahya\\Outil Niels Toulouse"
+    },
+    "time": {
+        "frequency": 180,
+        "timeLimit": 7200,
+        "timeLimitAll": 7200
+    },
+    "requestOption": {
+        "submitNewRequest": false,
+        "getRequestDetails": false,
+        "submitGetRequestDetails": true
+    },
+    "unzipFile": {
+        "unzipFileOption": true,
+        "csvName": "speed_data_toulouse_niels.csv"
+    },
+    "dateQuery": {
+        "duration": 28,
+        "endDate": "",
+        "endDateOffset": 2
+    },
+    "deleteFiles": {
+        "deletePostFile": false,
+        "deleteGetFile": false
+    },
+    "estimatedSize": 0,
+    "requestName": "Toulouse"
+}

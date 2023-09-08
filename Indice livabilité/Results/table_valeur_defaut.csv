@@ -1,0 +1,46 @@
+﻿GROUPE;CRITERE;INDICATEUR;VEHICULE;IND_ID;BORNE_B;BORNE_M;UNITE
+Circulation;Partage de l'espace;Nombre de voie;PL;1111;3;1;-
+Circulation;Partage de l'espace;Nombre de voie;VUL;1112;2;1;-
+Circulation;Partage de l'espace;Nombre de voie;VC;1113;0;2;-
+Circulation;Partage de l'espace;Arrêts TC;PL;1121;5;15;
+Circulation;Partage de l'espace;Arrêts TC;VUL;1122;15;45;
+Circulation;Partage de l'espace;Arrêts TC;VC;1123;30;60;
+Circulation;Fluidité;Type de carrefour;PL;1211;;;
+Circulation;Fluidité;Type de carrefour;VUL;1212;;;
+Circulation;Fluidité;Type de carrefour;VC;1213;;;
+Circulation;Fluidité;Obstacle;PL;1231;0;2;-
+Circulation;Fluidité;Obstacle;VUL;1232;1;4;-
+Circulation;Fluidité;Obstacle;VC;1233;2;5;-
+Circulation;Déplacement;Vitesse limite;PL;1311;30;20;kmh
+Circulation;Déplacement;Vitesse limite;VUL;1312;40;20;kmh
+Circulation;Déplacement;Vitesse limite;VC;1313;20;10;kmh
+Circulation;Déplacement;Congestion;PL;1321;0,8;0,4;
+Circulation;Déplacement;Congestion;VUL;1322;0,7;0,3;
+Circulation;Déplacement;Congestion;VC;1323;0,6;0,2;
+Circulation;Déplacement;Chantier;PL;1331;15;60;jour
+Circulation;Déplacement;Chantier;VUL;1332;30;90;jour
+Circulation;Déplacement;Chantier;VC;1333;60;120;jour
+Accessibilité;Réglementations;Hauteur;PL;2211;350;310;cm
+Accessibilité;Réglementations;Hauteur;VUL;2212;205;185;cm
+Accessibilité;Réglementations;Hauteur;VC;2213;200;180;cm
+Accessibilité;Réglementations;Poids;PL;2221;38000;14000;kg
+Accessibilité;Réglementations;Poids;VUL;2222;3500;1500;kg
+Accessibilité;Réglementations;Poids;VC;2223;0;0;kg
+Accessibilité;Réglementations;Poids essieu;PL;2231;21000;4000;kg
+Accessibilité;Réglementations;Poids essieu;VUL;2232;1000;0;kg
+Accessibilité;Réglementations;Poids essieu;VC;2233;0;0;kg
+Accessibilité;Réglementations;Longueur;PL;2241;1300;700;cm
+Accessibilité;Réglementations;Longueur;VUL;2242;450;350;cm
+Accessibilité;Réglementations;Longueur;VC;2243;280;220;cm
+Accessibilité;Réglementations;Largeur;PL;2251;250;210;cm
+Accessibilité;Réglementations;Largeur;VUL;2252;200;170;cm
+Accessibilité;Réglementations;Largeur;VC;2253;150;100;cm
+Accessibilité;Réglementations;Horaire;PL;2221;8;4;h
+Accessibilité;Réglementations;Horaire;VUL;2222;6;2;h
+Accessibilité;Réglementations;Horaire;VC;2223;0;0;h
+Accessibilité;Manutention;Place de stationnement;PL;2311;6;2;-
+Accessibilité;Manutention;Place de stationnement;VUL;2312;4;2;-
+Accessibilité;Manutention;Place de stationnement;VC;2313;0;0;-
+Accessibilité;Manutention;Pente;PL;2321;3;5;deg
+Accessibilité;Manutention;Pente;VUL;2322;6;10;deg
+Accessibilité;Manutention;Pente;VC;2323;3;5;deg
