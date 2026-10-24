@@ -1,6 +1,20 @@
-# Stage-Outil-ArcGIS-Pro
+# ArcGIS Pro Tools for Mobility Analysis
 
-For the users of ArcGIS Pro i developped this tool during my internship it allows you to construct automatically a network where you can apply several studies meanwhile this has to be done in several steps before.
+> Python/arcpy toolboxes for ArcGIS Pro, developed during my internship at Citec (2023):
+> build a multimodal transport network in one run, measure public-transport service quality
+> from GTFS, and score streets for urban freight delivery.
+
+<p>
+  <img src="https://img.shields.io/badge/ArcGIS%20Pro-2C7AC3?style=flat-square&logo=arcgis&logoColor=white" alt="ArcGIS Pro">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/arcpy-2C7AC3?style=flat-square&logo=esri&logoColor=white" alt="arcpy">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/GTFS-4CAF50?style=flat-square&logo=googlemaps&logoColor=white" alt="GTFS">
+</p>
+
+For ArcGIS Pro users, I developed this tool during my internship: it builds a multimodal
+network automatically, ready for Network Analyst studies (service areas, routes, OD matrices),
+replacing a process that previously required several manual geoprocessing steps.
 
 ---
 
@@ -55,3 +69,10 @@ This repository gathers ArcGIS Pro tools and analyses on mobility data for **Tou
 3. Run the tools from the toolbox and follow the documentation in each folder's README.
 
 Folder names were made ASCII and consistent (no spaces or accents); file names and contents are unchanged.
+
+---
+
+## Author
+
+**Yahya Younes** – AI & GenAI Engineer (LLM, RAG, model compression), Toulouse, France
+[Portfolio](https://yahyayounes.com) · [LinkedIn](https://www.linkedin.com/in/yahyayounes/) · [GitHub](https://github.com/Yahya-Younes)
